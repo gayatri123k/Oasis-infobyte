@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     
+    .navbar{
+        top:0;
+        background-color:  rgb(0, 0, 33);
+        padding:15px;
+        text-align: center;
+        width:100%;
+        position:fixed;
+    }
+    .nav-anchor{
+        text-decoration: none;
+        color: #fff;
+        padding:15px;
+        font-size:20px;
+    }
+    .nav-anchor:hover{
+        background-color: #555;
+    }
+    body{
+        margin:0;
+        padding:0;
+        padding-top:60px;
+        background-color:rgba(0,0,0,0.1);
+    }
+    .user-heading{
+        display:flex;
+        text-align:center;
+        padding:10px;
+        justify-content: space-around;
+    }
+    .user-img{
+        height:200px;
+        border-radius: 50%;
+    }
+    .skills{
+        margin:10px;
+        padding:10px;
+        font-size:15px;
+        margin:5px;
+        border-radius:30px;
+        color:white;
+        border:none;
+        width:120px;
+        box-shadow: 0px 3px 1px 1px rgb(0,0,0);
+    }
+
+    .btn-html{
+       background-color: #e34c26;
+    }
+    .btn-css{
+       background-color:#2965f1;
+    }
+    .btn-javascript{
+       background-color:yellowgreen;
+    }
+    .btn-git{
+        background-color:black;
+    }
+    .btn-Reactjs{
+        background-color:#61dbfb;
+    }
+    .container{
+        padding:30px;
+    }
+    .portfollio-info{
+        display:flex;
+    }
+    .about{
+        height:400px;
+        width:600px;
+        padding:20px;
+        margin:20px;
+        border-radius:20px;
+        margin-top:50px;
+        margin-left:auto;
+        margin-right:auto;
+        box-shadow: 3px 3px 10px gray;
+        text-align:center;
+    }
+    .about p{
+        margin-top:50px;
+        font-size: 19px;
+        padding:10px;
+    }
+    .contact{
+       
+        height:400px;
+        width:600px;
+        padding:20px;
+        margin:20px;
+        border-radius:20px;
+        margin-top:50px;
+        margin-left:auto;
+        margin-right:auto;
+        box-shadow: 3px 3px 10px gray;
+        text-align:center;
+    }
+    .social{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .icon{
+        height:30px;
+        margin:10px;
+    }
+    .project-heading{
+        text-align: center;
+        font-size: 40px;
+    }
+    .project-container{
+        display:flex;
+        justify-content: space-around;
+        margin-top:50px;
+    }
+    .project-card{
+        padding: 10px;;
+        border:1px solid black;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px gray;
+        margin:10px;
+        max-width:300px;
+    }
+    .project-img{
+        height:200px;
+        width:100%;
+        object-fit: cover;
+
+    }
+    .project-details{
+        padding: 10px;
+    }
+    .proh-heading{
+        text-align: center;
+    }
+    .project-btn{
+        display:flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .btn-link{
+        background-color: black;
+        color:white;
+        padding:8px;
+        width:120px;
+        border-radius: 20px;
+        margin:2px;
+    }
+    footer{
+        margin:10px;
+        background-color: #333;
+        color: white;
+        text-align:center;
+        padding:10px;
+        bottom:0;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-anchor">Home</a>
+        <a href="#about" class="nav-anchor">About</a>
+        <a href="#contact" class="nav-anchor">Contact</a>
+        <a href="#project" class="nav-anchor">Project</a>
+        <a href="#resume" class="nav-anchor">Resume</a>
+    </nav>
+    <div class="user-heading">
+        <div>
+            <img src="./img/Gayu.jpg" class="user-img">
+        </div>
+
+        <div>
+            <h1>Gayatri Kedari</h1>
+            <h3>Front-End Developer</h3>
+            <div>
+                <button class="skills btn-html" >HTML</button>
+                <button class="skills btn-css">CSS</button>
+                <button class="skills btn-javascript">JavaScript</button>
+                <button class="skills btn-git" >GitHub</button><br>
+                <button class="skills btn-Reactjs">ReactJs</button>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="portfollio-info">
+                <div class="about" id="about">
+                    <h1>About Us</h1>
+                    <p>Hey, I'm Gayatri Kedari, a web developer who loves making cool<br> websites and apps.
+                         I turn ideas into real digital stuff that stands <br>out. 
+                         Whether you're starting something new or fixing up an <br>old thing, 
+                         I'm here to help. Let's chat and make something <br>awesome together! </p>
+                    
+                </div>
+                <div class="contact" id="contact">
+                    <h1>contact us</h1>
+                    <div class="social">
+                        <a href="">
+                            <img src="./img/insta.jpeg" class="icon">
+                        </a>    
+                        <img src="./img/twitter.png" class="icon">
+                        <img src="./img/whatsapp.png" class="icon">
+                        <a href="www.linkedin.com/in/https://www.linkedin.com/in/prathmesh-thombare-874b94278/prathamesht01">
+                        <img src="./img/linkdin.png" class="icon">
+                        </a>
+                        <a href="">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.7IkX3KvwLclvPeXh1TFSIAHaCQ&pid=Api&P=0&h=180" class="icon">
+                        </a>
+                    </div>
+                    <h3>✉️E-mail : gayatrikedari20@gmail.com</h3>
+                    <h3>📞contact : 9156789456</h3>
+                    
+                </div>
+            </div>
+        </div>
+
+        <h1 class="project-heading" id="project">Projects</h1>
+        <div class="project-container">
+              <div class="project-card">
+                <img class=project-img src="./img/pr-1.png">
+                <div class="project-details">
+                    <h3 class="proj-heading">Froyo Fashion Store</h3>
+                    <div class="project-btn">
+                        <button class="btn-link">Source Code</button>
+                        <button class="btn-link">Live-url</button>
+                    </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img class=project-img src="./img/pr-2.png">
+                <div class="project-details">
+                    <h3 class="proj-heading">WatchWave</h3>
+                    <div class="project-btn">
+                        <button class="btn-link">Source Code</button>
+                        <button class="btn-link">Live-url</button>
+                    </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img class=project-img src="./img/pr-3.png">
+                <div class="project-details">
+                    <h3 class="proj-heading">VidTube</h3>
+                    <div class="project-btn">
+                        <button class="btn-link">Source Code</button>
+                        <button class="btn-link">Live-url</button>
+                    </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <img class=project-img src="./img/pr-4.png">
+                <div class="project-details">
+                    <h3 class="proj-heading">Travel Website</h3>
+                    <div class="project-btn">
+                        <button class="btn-link">Source Code</button>
+                        <button class="btn-link">Live-url</button>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <footer>
+            <p>&copy; Gayatri Kedari 2023</p>
+        </footer>
+    
+</body>
+</html>
